@@ -53,7 +53,7 @@ class App extends React.Component {
           <Route path='/checkout' component={CheckoutPage} />
           <Route exact path='/signin' render={() => this.props.currentUser ? (<Redirect to="/" />) : <SignInAndSignUpPage />} />
         </Switch>
-        
+      
       </div>
     );
   }
