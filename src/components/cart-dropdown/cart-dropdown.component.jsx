@@ -22,7 +22,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
         }
         </CartItemsStyle>
         <CartDropDownButton onClick={() => {
-            history.push('/checkout')
+            history.push('/crwn/checkout')
             dispatch(toggleCartHidden())
             }}>GO TO CHECKOUT</CartDropDownButton>
             {/* dispatch yordamida card.actiondagi 'toggleCartHidden' ni chaqiramiz */}
